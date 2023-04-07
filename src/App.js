@@ -8,7 +8,6 @@ import Forms from './Forms'
 export default function App() {
   return (
     <div>
-
 <>
   <Header/>
   <Slider/>
