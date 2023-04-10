@@ -9,7 +9,7 @@ import './form.css'
 export default function Forms() {
   return (
     <div className='form-section'>
-    <div className='container mt-5 bg-dark' >
+    <div className='container mt-5 bg-info' >
    
       <Form>
       <Row className="mb-3">
