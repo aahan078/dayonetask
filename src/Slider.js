@@ -5,19 +5,20 @@ import '../src/slider.css'
 export default function Slider() {
   return (
   
-<div className='container--slide'>
+<div className='section'>
+<div className='container--fluid '>
     
 <Carousel fade>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cdn.pixabay.com/photo/2020/03/03/20/31/boat-4899802_960_720.jpg"
+          src="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png"
           alt="First slide"
           
         />
         <Carousel.Caption>
         
-          <h3 className='ih--name'>India Hikes</h3>
+        <h1>India Hikes</h1>
           <h3 className='ih--name2'>India’s Largest & Safest Trekking Organisation</h3>
          
           
@@ -33,7 +34,7 @@ export default function Slider() {
         />
 
         <Carousel.Caption>
-        <h1>India Hikes</h1>
+        
           <h3>More than 12 years of operations in wilderness</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
@@ -54,7 +55,7 @@ export default function Slider() {
       </Carousel.Item>
     </Carousel>
     </div>
-    
+    </div>
 
   )
 }

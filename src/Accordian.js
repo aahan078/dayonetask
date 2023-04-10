@@ -4,7 +4,7 @@ import '../src/accordian.css'
 
 export default function Accordian() {
   return (
-    <div className='accordian--1'>
+    <div className='container mt-5'>
           <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Which Trek is best in Winters</Accordion.Header>

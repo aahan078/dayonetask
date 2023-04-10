@@ -8,10 +8,9 @@ import './form.css'
 
 export default function Forms() {
   return (
-    <div className='info--1'>
-    <h1>
-      Fill-up the Form for trek registraion
-    </h1>
+    <div className='form-section'>
+    <div className='container mt-5 bg-dark' >
+   
       <Form>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
@@ -64,6 +63,7 @@ export default function Forms() {
       </Button>
     </Form>  
 
+    </div>
     </div>
   )
 }
